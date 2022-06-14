@@ -17,5 +17,5 @@ sudo docker run -d -p 21:21 -p 21100-21110:21100-21110 \
   -e PASV_MAX_PORT=21110 \
   --name vsftpd \
   --restart=always \
-  fauria/vsftpd
+  jeyrce/vsftpd
 ```
