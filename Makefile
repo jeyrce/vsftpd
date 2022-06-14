@@ -16,6 +16,6 @@ image:
 	docker buildx build -t ${imageName} \
 		--build-arg commitId=${commitId} \
 		--build-arg goProxy=${goProxy} \
-		--platform linux/386,linux/amd64,linux/arm64,linux/arm/v7,linux/arm/v8 \
+		--platform linux/386,linux/amd64,linux/arm64 \
 		--push \
 		.
